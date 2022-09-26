@@ -1,20 +1,3 @@
-@media screen and (max-width: 1440px){
-    html, body, main, div{
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    header div {
-        font-size: 1.5em;
-    }
-
-    #menu {
-        margin-left: 250px;
-    }
-}
-
 @media screen and (max-width: 1024px){
     html, body, main, div{
         box-sizing: border-box;
