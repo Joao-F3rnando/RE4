@@ -1,17 +1,30 @@
-@media screen and (max-width: 1024px){
-    html, body {
+@media screen and (max-width: 1440px){
+    html, body, main, div{
         box-sizing: border-box;
         width: 100%;
         margin: 0;
         padding: 0;
-        background-color:#161616;
-        background-image:linear-gradient(to top,transparent 0,rgba(203, 203, 203, 0.095) 100%);
     }
 
     header div {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 700;
         font-size: 1.5em;
+    }
+
+    #menu {
+        margin-left: 250px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    html, body, main, div{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header div {
+        font-size: 1.0em;
     }
 
     header {
@@ -78,14 +91,6 @@
 }
 
 @media screen and (max-width: 768px){
-    html, body {
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color:#161616;
-        background-image:linear-gradient(to top,transparent 0,rgba(203, 203, 203, 0.095) 100%);
-    }
 
     header div {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -97,6 +102,15 @@
         padding: 0px;
         margin-bottom: 10px;
         box-sizing: border-box;
+    }
+
+    main{
+        width: 90%;
+    }
+
+    #logo img{
+        width: 130px;
+        height: 50px;
     }
 
     #menu {
@@ -116,7 +130,7 @@
     #inicio {
         display: inline-block;
         position: fixed;
-        margin-left: 860.5px;
+        margin-left: 700.5px;
         margin-top: 870.7px;
     }
 
