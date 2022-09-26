@@ -1,3 +1,60 @@
+@media screen and (max-width: 1440px){
+    html, body, main, div{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 0px;
+
+    }
+
+    main{
+        padding: 0px 50px;
+    }
+
+    header div {
+        font-size: 1.5em;
+    }
+
+    #menu {
+        margin-left: 250px;
+    }
+
+    #inicio {
+        margin-left: 1370.5px;
+        margin-top: 560.7px;
+        height: 60px;
+        width: 60px;
+    }
+    
+    #inicio img{
+        height: 70px;
+        width: 50px;
+    }
+
+    #logoRE4 {
+        margin-left: 480px;
+        width: 30%;
+    }
+    
+    #leonfundo{
+        height: 350px; 
+        width: 480px;
+        padding-right: 50px;
+    }
+
+    #historia, #experiencia nav{
+        font-size: 1.4em;
+    }
+
+    #human{
+        padding-left: 590px;
+    }
+
+    #boss{
+        padding-left: 590px;
+    }
+}
+
 @media screen and (max-width: 1024px){
     html, body, main, div{
         box-sizing: border-box;
@@ -45,9 +102,7 @@
     }
 
     #historia, #experiencia nav{
-        display: flex;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.2em;
+        font-size: 1.1em;
     }
 
     #character, #guns{
