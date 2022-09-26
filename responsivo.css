@@ -16,7 +16,7 @@
     }
 
     #menu {
-        margin-left: 250px;
+        margin-left: 150px;
     }
 
     #inicio {
@@ -53,6 +53,13 @@
     #boss{
         padding-left: 590px;
     }
+
+    #linha{
+        padding-left: 290px;
+    }
+    #linhaunica{
+        padding-left: 341px;
+    }
 }
 
 @media screen and (max-width: 1024px){
@@ -69,7 +76,7 @@
 
     header {
         padding: 0px;
-        margin-bottom: 100px;
+        margin-bottom: 50px;
         box-sizing: border-box;
     }
 
@@ -108,17 +115,41 @@
     #character, #guns{
         margin: 0;
     }
+
+    #humanos #info h2{
+        width: 90%;
+    }
+
+    nav #img{
+        width: 150px;
+    }
+
+    #armas{
+        margin: 0;
+    }
     
     #human{
         padding-left: 450px;
     }
 
     #boss{
-        padding-left: 550px;
+        padding-left: 450px;
+    }
+
+    #linha{
+        padding-left: 120px;
+    }
+
+    #linha p{
+        padding-top: 15px;
+    }
+
+    #linhaunica p{
+        padding-top: 15px;
     }
 
     #linhaunica{
-        padding-left: 215px;
+        padding-left: 170px;
         border: #BF0404;
     }
     
@@ -128,12 +159,20 @@
     }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 912px){
+
+    html, body, main div{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
 
     header div {
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         font-weight: 700;
         font-size: 1.0em;
+        width: 100%;
     }
 
     header {
@@ -143,7 +182,7 @@
     }
 
     main{
-        width: 90%;
+        width: 100%;
     }
 
     #logo img{
@@ -165,11 +204,16 @@
         width: 400px;
     }
 
+    nav #imagemPrincipal{
+        padding-left: 50px;
+    }
+
+    #imagemPrincipal img{
+        padding: 0;
+    }
+
     #inicio {
-        display: inline-block;
-        position: fixed;
-        margin-left: 700.5px;
-        margin-top: 870.7px;
+        display: none;
     }
 
     #tema{
