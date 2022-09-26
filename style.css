@@ -73,6 +73,7 @@ header #cabeçalho {
 button{
     width: 100px;
     height: 50px;
+    cursor: pointer;
     border-radius: 50%;
     background-color: #E6E6E6;
     color: #161616;
@@ -81,6 +82,11 @@ button{
 button:hover{
     background-color: #BF2431;
     color: #E6E6E6;
+}
+
+button:active{
+    background-color: #E6E6E6;
+    color: #161616;
 }
 
 #cabeçalho nav a {
