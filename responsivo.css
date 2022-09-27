@@ -1,10 +1,9 @@
-@media screen and (max-width: 1440px){
+@media(max-width: 1440px){
     html, body, main, div{
         box-sizing: border-box;
         width: 100%;
         margin: 0;
         padding: 0px;
-
     }
 
     main{
@@ -21,7 +20,7 @@
 
     #inicio {
         margin-left: 1370.5px;
-        margin-top: 560.7px;
+        margin-top: 500.7px;
         height: 60px;
         width: 60px;
     }
@@ -62,7 +61,7 @@
     }
 }
 
-@media screen and (max-width: 1024px){
+@media(max-width: 1024px){
     html, body, main, div{
         box-sizing: border-box;
         width: 100%;
@@ -159,7 +158,7 @@
     }
 }
 
-@media screen and (max-width: 912px){
+@media(max-width: 768px){
 
     html, body, main div{
         box-sizing: border-box;
@@ -169,8 +168,6 @@
     }
 
     header div {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 700;
         font-size: 1.0em;
         width: 100%;
     }
@@ -252,7 +249,12 @@
     }
 
     #history, #character, #guns{
-        margin-left: 250px;
+        margin-left: 20px;
+    }
+
+    #info p{
+        width: 50%;
+        margin: 0;
     }
 
     #human{
@@ -325,154 +327,9 @@
 
 }
 
-@media screen and (max-width: 480px){
-    html, body {
-        box-sizing: border-box;
+@media(max-width: 480px){
+    html{
         width: 100%;
-        margin: 0;
-        padding: 0;
-        background-color:#161616;
-        background-image:linear-gradient(to top,transparent 0,rgba(203, 203, 203, 0.095) 100%);
+        font-size: 0.5em;
     }
-
-    header div {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: 700;
-        font-size: 1.0em;
-    }
-
-    header {
-        padding: 0px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
-    }
-
-    #menu {
-        margin-left: 10px;
-    }
-
-    #logoRE4 {
-        margin-left: 230px;
-        width: 50%;
-    }
-
-    #leonfundo{
-        height: 250px; 
-        width: 400px;
-    }
-
-    #inicio {
-        display: inline-block;
-        position: fixed;
-        margin-left: 860.5px;
-        margin-top: 870.7px;
-    }
-
-    #tema{
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.5em;
-        color: #E6E6E6;
-        padding-left: 235px;
-    }
-
-    #butão{
-        padding-left: 250px;
-    }
-
-    button{
-        width: 80px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: #E6E6E6;
-        color: #161616;
-    }
-
-    #historia, #experiencia nav{
-        display: inline-block;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.4em;
-        padding-left: 150px;
-    }
-
-    #historia p{
-        color: #E6E6E6;
-        text-align: center;
-    }
-    
-    #imagemPrincipal{
-        padding-left: 90px;
-    }
-
-    #history, #character, #guns{
-        margin-left: 250px;
-    }
-
-    #human{
-        padding-left: 350px;
-    }
-
-    #personagens #humanos{
-        font-size: 1.5em;
-        padding-left: 0;
-    }
-
-    #personagens #chefes{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 1.3em;
-    }
-
-    #boss{
-        padding-left: 380px;
-    }
-
-    #linhaunica{
-        padding-left: 215px;
-        border: #BF0404;
-    }
-
-    #experiencia video{
-        padding-right: 50px;
-        height: 450px; 
-        width: 500px;
-    }
-
-    #humanos #info h2{
-        width: 420px;
-        padding-left: 100px;
-    }
-
-    #chefes #info h2{
-        width: 420px;
-        padding-left: 150px;
-    }
-
-    #img{
-        margin-top: 0px;
-    }
-
-    #armas{
-        padding: 0;
-    }
-
-    #armas h1{
-        padding-left: 30px;
-    }
-
-    #armas nav{
-        padding: 0;
-    }
-    
-    #armas #linha, #armas #linhaunica{
-        justify-content: center;
-        padding-left: 130px;
-    }
-
-    h1{
-        width: 780px;
-    }
-
-    #myexperience{
-        padding-left: 120px;
-    }
-
 }
