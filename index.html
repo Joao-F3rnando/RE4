@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="responsivo.css">
-    <title>Document</title>
+    <title>Resident Evil 4</title>
 </head>
 
 <body>
@@ -42,12 +42,16 @@
                 <nav id="butão">
                     <button onclick="document.getElementById('audio').play(); getElementById('audio').volume=0.1; getElementById('audio').currentTime=0">Play</button>
                     <button onclick="document.getElementById('audio').pause()">Pause</button>
-                    <button onclick="document.getElementById('audio').volume+=0.1">Aumentar</button>
-                    <button onclick="document.getElementById('audio').volume-=0.1">Diminuir</button>
+                    <button onclick="document.getElementById('audio').volume+=0.1">VOL+</button>
+                    <button onclick="document.getElementById('audio').volume-=0.1">VOL-</button>
                 </nav>
             </nav>
             <img src="img/História.png" alt="história" id="history" width="365px" height="243">
             <nav id="historia">
+                <nav id="imagemPrincipal">
+                    <img src="img/RE4NovoD.jpg" alt="img1" id="leonfundo" height="390px" width="700px">
+                </nav>
+
                 <nav id="texto">
                     <p>Seis anos se passaram desde o desastre biológico em Raccoon City.<br><br>
                         Leon S. Kennedy, um dos sobreviventes do incidente, foi recrutado como agente,
@@ -62,10 +66,6 @@
                         E a cortina se abre nessa história de um ousado resgate e horror de sobrevivência extenuante.
                     </p>
                 </nav>
-
-                <nav id="imagemPrincipal">
-                    <img src="img/RE4NovoD.jpg" alt="img1" id="leonfundo" height="390px" width="700px">
-                </nav>
             </nav>
             <div id="personagens">
                 <nav>
@@ -76,12 +76,12 @@
                         <!--HUMANOS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>LEON S. KENNEDY</h2>
                         <nav id="persona">
                             <nav id="img">
                                 <img src="img/leonSite.jpg" alt="LEON" height="200" width="150">
                             </nav>
                             <nav id="info">
-                                <h2>LEON S. KENNEDY</h2>
                                 <p>O policial que teve de enfrentar zumbis na infectada Raccoon City em seu primeiro dia de
                                     serviço agora é um agente do governo, contratado para resgatar a filha do presidente dos
                                     EUA, que foi sequestrada e levada a um pequeno e aparentemente pacífico vilarejo
@@ -94,12 +94,12 @@
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>ASHLEY GRAHAM</h2>
                         <nav id="persona">
                             <nav id="img">
                                 <img src="img/ashleySite.jpg" alt="ASHLEY" height="200" width="150">
                             </nav>
                             <nav id="info">
-                                <h2>ASHLEY GRAHAM</h2>
                                 <p>A filha do presidente dos EUA acabou sequestrada e levada até o vilarejo, como parte
                                     inicial de um plano arquitetado por Osmund Saddler. Ashley é extremamente mimada e exige
                                     cuidados especiais. À medida que Leon avança pelo local, a garota pode acabar sendo até
@@ -109,12 +109,12 @@
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>ADA WONG</h2>
                         <nav id="persona">
                             <nav id="img">
                                 <img src="img/adaSite.jpg" alt="ADA" height="200" width="150">
                             </nav>
                             <nav id="info">
-                                <h2>ADA WONG</h2>
                                 <p>A espiã que aparentemente havia morrido em Raccoon City volta com um objetivo específico
                                     em relação às Plagas que são utilizadas no local. Munida de equipamentos de alta
                                     tecnologia e com um grande preparo físico, a espiã chega a auxiliar Leon em alguns
@@ -123,12 +123,12 @@
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>LUIS SERA</h2>
                         <nav id="persona">
                             <nav id="img">
                                 <img src="img/luisSite.jpg" alt="LUIS" height="200" width="150">
                             </nav>
                             <nav id="info">
-                                <h2>LUIS SERA</h2>
                                 <p>O espanhol aparece inicialmente como um prisioneiro de Saddler, contando para Leon que
                                     também é apenas um ex-policial. Porém, Luis sabe mais sobre as Plagas do que aparenta, e
                                     possui um objetivo determinado em relação a elas.</p>
@@ -136,12 +136,12 @@
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>INGRID HUNNINGAN</h2>
                         <nav id="persona">
                             <nav id="img">
                                 <img src="img/hunninganSite.jpg" alt="HUNNINGAN" height="200" width="150">
                             </nav>
                             <nav id="info">
-                                <h2>INGRID HUNNINGAN</h2>
                                 <p>A agente do Serviço Secreto é o único meio de comunicação externa que Leon possui durante
                                     toda sua jornada. Ingrid o auxilia em diversos momentos, dando ordens específicas ou
                                     apenas desejando cuidado e boa sorte na sequência de sua missão.</p>
@@ -149,12 +149,12 @@
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>ALBERT WESKER</h2>
                         <nav id="persona">
                             <nav id="img">
                                 <img src="img/Wesker.jpg" alt="WESKER" height="200" width="150">
                             </nav>
                             <nav id="info">
-                                <h2>ALBERT WESKER</h2>
                                 <p>Escondido nas sombras, Albert Wesker está em busca das Plagas existentes na pequena vila.
                                     O vilão usa Jack Krauser e Ada Wong para cumprir seus objetivos, e os orienta à
                                     distância. Não se sabe ao certo se nessa época, Wesker já estava infectado, mas no jogo
@@ -166,13 +166,16 @@
                     </nav>
     
                     <img src="img/Chefes.png" alt="Chefes" id="boss" height="80px">
-                    <nav id="chefes">
+                    <nav id="humanos">
                         <!--CHEFES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>BITORES MENDEZ</h2>
                         <nav id="persona">
+                            <nav id="img">
+                                <img src="img/bitoresSite.jpg" alt="BITORES" height="200" width="150">
+                            </nav>
                             <nav id="info">
-                                <h2>BITORES MENDEZ</h2>
                                 <p>Bitores é o chefe de Pueblo e um dos homens fortes por trás de toda a história.
                                     Primeiramente
                                     possui uma forma humana, porém é mais alto do que o normal e é dotado de força
@@ -182,15 +185,15 @@
                                     atacá-lo. Fique na parte de cima do cenário e use sua arma mais forte, pois ele é ágil e
                                     possui golpes potentes.</p>
                             </nav>
-                            <nav id="img">
-                                <img src="img/bitoresSite.jpg" alt="BITORES" height="200" width="150">
-                            </nav>
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>RAMON SALAZAR</h2>
                         <nav id="persona">
+                            <nav id="img">
+                                <img src="img/salazarSite.jpg" alt="SALAZAR" height="200" width="150">
+                            </nav>
                             <nav id="info">
-                                <h2>RAMON SALAZAR</h2>
                                 <p>Essa criatura está presente no castelo de Salazar e é a responsável por produzir os
                                     parasitas. Ele possui ataques potentes e que podem matá-lo com um só golpe, então é
                                     necessário prestar atenção à movimentação da “cabeça” do monstro e estar pronto para
@@ -198,15 +201,15 @@
                                     atire no olho amarelo da cabeça até o corpo de Salazar ficar exposto através da boca,
                                     dessa forma, você terá um curto período para atingi-lo o máximo possível</p>
                             </nav>
-                            <nav id="img">
-                                <img src="img/salazarSite.jpg" alt="SALAZAR" height="200" width="150">
-                            </nav>
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>JACK KRAUSER</h2>
                         <nav id="persona">
+                            <nav id="img">
+                                <img src="img/krauserSite.jpg" alt="KRAUSER" height="200" width="150">
+                            </nav>
                             <nav id="info">
-                                <h2>JACK KRAUSER</h2>
                                 <p>Um velho conhecido de Leon, que aparece em duas partes distintas. Na primeira, há apenas
                                     um duelo de facas – algo em que ambos são especialistas e depende apenas de QTEs. No
                                     segundo encontro, Krauser está melhor armado e oferece maior perigo durante um longo
@@ -216,15 +219,15 @@
                                     pois ele é invulnerável aos tiros. OBS: Algo que não faz sentido nenhum é a faca ser
                                     muito forte contra Krauser, mas ela é a melhor arma nesta luta.</p>
                             </nav>
-                            <nav id="img">
-                                <img src="img/krauserSite.jpg" alt="KRAUSER" height="200" width="150">
-                            </nav>
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>U3</h2>
                         <nav id="persona">
+                            <nav id="img">
+                                <img src="img/u3Site.jpg" alt="U3" height="200" width="150">
+                            </nav>
                             <nav id="info">
-                                <h2>U3</h2>
                                 <p>A cartada final de Saddler. O U3 é uma bizarra criatura muito resistente, mas que não
                                     apresenta grande velocidade. Em sua primeira batalha, você só pode repelí-lo com alguns
                                     tiros e tentar escapar da seqüência de plataformas suspensas ativando as alavancas de
@@ -232,15 +235,15 @@
                                     Use armas potentes direcionadas para o tentáculo e para a cabeça da criatura, além dos
                                     galões explosivos.</p>
                             </nav>
-                            <nav id="img">
-                                <img src="img/u3Site.jpg" alt="U3" height="200" width="150">
-                            </nav>
                         </nav>
                         <hr size="1" color="#212C32">
                         <br>
+                        <h2>OSMUND SADDLER</h2>
                         <nav id="persona">
+                            <nav id="img">
+                                <img src="img/sadlerSite.jpg" alt="U3" height="200" width="150">
+                            </nav>
                             <nav id="info">
-                                <h2>OSMUND SADDLER</h2>
                                 <p>O último grande desafio do jogo é ninguém menos do que o líder do culto Los Illuminados,
                                     em uma forma monstruosa que assusta apenas pelo tamanho. Atire primeiro nos pequenos
                                     olhos presentes nas pernas, fazendo com que ele caia. Seu ponto fraco torna-se então
@@ -248,9 +251,6 @@
                                     passar de uma plataforma para outra. Quando Saddler tiver sofrido um dano considerável,
                                     Ada irá jogar a Rocket Launcher especial para Leon, sendo possivel finalizar o monstro
                                     com a mesma.</p>
-                            </nav>
-                            <nav id="img">
-                                <img src="img/sadlerSite.jpg" alt="U3" height="200" width="150">
                             </nav>
                         </nav>
                         <hr size="1" color="#212C32">
@@ -262,7 +262,6 @@
             <div id="armas">
                 <!--ARMAS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!-->
                 <img src="img/Armamentos.png" alt="ARMAMENTOS" id="guns" width="365px" height="243">
-                <h1>SEGUE LISTA DAS MINHAS ARMAS FAVORITAS!!!</h1>
                 <nav id="linha">
                     <nav>
                         <p>Iniciamos o jogo com está arma, sendo a identidade inicial de Leon!</p>
@@ -312,9 +311,6 @@
                     </p>
                     <video src="img/experienceSite.mp4" controls height="390px" width="700px"></video>
                 </nav>
-                <br>
-                <hr size="1" color="#212C32">
-                <br>
             </div>
         </div>
         </main>
