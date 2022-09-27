@@ -1,13 +1,13 @@
-@media(max-width: 1440px){
+@media (max-width: 1440px){
     html, body, main, div{
         box-sizing: border-box;
         width: 100%;
         margin: 0;
-        padding: 0px;
+        padding: 0;
     }
 
     main{
-        padding: 0px 50px;
+        padding: 0px 5%;
     }
 
     header div {
@@ -15,53 +15,29 @@
     }
 
     #menu {
-        margin-left: 150px;
+        margin-left: 18%;
     }
 
     #inicio {
-        margin-left: 1370.5px;
-        margin-top: 500.7px;
+        margin-top: 45%;
         height: 60px;
         width: 60px;
     }
     
-    #inicio img{
-        height: 70px;
-        width: 50px;
-    }
-
-    #logoRE4 {
-        margin-left: 480px;
-        width: 30%;
-    }
-    
-    #leonfundo{
-        height: 350px; 
-        width: 480px;
-        padding-right: 50px;
-    }
-
     #historia, #experiencia nav{
-        font-size: 1.4em;
-    }
-
-    #human{
-        padding-left: 590px;
-    }
-
-    #boss{
-        padding-left: 590px;
+        font-size: 1.3em;
     }
 
     #linha{
-        padding-left: 290px;
+        padding-left: 22%;
     }
+    
     #linhaunica{
-        padding-left: 341px;
+        padding-left: 24.4%;
     }
 }
 
-@media(max-width: 1024px){
+@media (max-width: 1024px){
     html, body, main, div{
         box-sizing: border-box;
         width: 100%;
@@ -70,266 +46,283 @@
     }
 
     header div {
-        font-size: 1.0em;
-    }
-
-    header {
-        padding: 0px;
-        margin-bottom: 50px;
-        box-sizing: border-box;
-    }
-
-    #menu {
-        margin-left: 110px;
-    }
-
-    #logoRE4 {
-        margin-left: 290px;
-        width: 50%;
-    }
-
-    #leonfundo{
-        height: 350px; 
-        width: 500px;
-    }
-
-    #inicio {
-        display: inline-block;
-        position: fixed;
-        margin-left: 1170.5px;
-        margin-top: 750.7px;
-    }
-
-
-    #historia nav p, #experiencia nav p{
-        margin-right: 50px;
-        padding-top: 0;
-        margin-top: 0;
-    }
-
-    #historia, #experiencia nav{
-        font-size: 1.1em;
-    }
-
-    #character, #guns{
-        margin: 0;
-    }
-
-    #humanos #info h2{
-        width: 90%;
-    }
-
-    nav #img{
-        width: 150px;
-    }
-
-    #armas{
-        margin: 0;
-    }
-    
-    #human{
-        padding-left: 450px;
-    }
-
-    #boss{
-        padding-left: 450px;
-    }
-
-    #linha{
-        padding-left: 120px;
-    }
-
-    #linha p{
-        padding-top: 15px;
-    }
-
-    #linhaunica p{
-        padding-top: 15px;
-    }
-
-    #linhaunica{
-        padding-left: 170px;
-        border: #BF0404;
-    }
-    
-    #texto video{
-        height: 300px; 
-        width: 500px;
-    }
-}
-
-@media(max-width: 768px){
-
-    html, body, main div{
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
-
-    header div {
-        font-size: 1.0em;
-        width: 100%;
-    }
-
-    header {
-        padding: 0px;
-        margin-bottom: 10px;
-        box-sizing: border-box;
+        font-size: 0.8em;
     }
 
     main{
-        width: 100%;
-    }
-
-    #logo img{
-        width: 130px;
-        height: 50px;
+        padding: 0px 3%;
     }
 
     #menu {
-        margin-left: 10px;
+        margin-left: 10%;
     }
 
     #logoRE4 {
-        margin-left: 230px;
-        width: 50%;
+        margin-left: 25%;
     }
 
     #leonfundo{
-        height: 250px; 
-        width: 400px;
-    }
-
-    nav #imagemPrincipal{
-        padding-left: 50px;
-    }
-
-    #imagemPrincipal img{
-        padding: 0;
+        height: 90%; 
+        width: 100%;
+        padding-top: 2%;
     }
 
     #inicio {
         display: none;
     }
 
-    #tema{
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.5em;
-        color: #E6E6E6;
-        padding-left: 235px;
-    }
 
-    #butão{
-        padding-left: 250px;
-    }
-
-    button{
-        width: 80px;
-        height: 30px;
-        border-radius: 50%;
-        background-color: #E6E6E6;
-        color: #161616;
+    #historia nav p, #experiencia nav p{
+        margin-right: 5%;
     }
 
     #historia, #experiencia nav{
-        display: inline-block;
-        font-family: 'Raleway', sans-serif;
-        font-size: 1.4em;
-        padding-left: 150px;
+        font-size: 1.1em;
     }
 
-    #historia p{
-        color: #E6E6E6;
-        text-align: center;
-    }
-    
-    #imagemPrincipal{
-        padding-left: 90px;
-    }
-
-    #history, #character, #guns{
-        margin-left: 20px;
-    }
-
-    #info p{
-        width: 50%;
-        margin: 0;
-    }
-
-    #human{
-        padding-left: 350px;
-    }
-
-    #personagens #humanos{
-        font-size: 1.5em;
-        padding-left: 0;
-    }
-
-    #personagens #chefes{
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-size: 1.3em;
-    }
-
-    #boss{
-        padding-left: 380px;
-    }
-
-    #linhaunica{
-        padding-left: 215px;
-        border: #BF0404;
-    }
-
-    #experiencia video{
-        padding-right: 50px;
-        height: 450px; 
-        width: 500px;
-    }
-
-    #humanos #info h2{
-        width: 420px;
-        padding-left: 100px;
-    }
-
-    #chefes #info h2{
-        width: 420px;
-        padding-left: 150px;
-    }
-
-    #img{
-        margin-top: 0px;
-    }
-
-    #armas{
-        padding: 0;
-    }
-
-    #armas h1{
-        padding-left: 30px;
-    }
-
-    #armas nav{
-        padding: 0;
-    }
-    
-    #armas #linha, #armas #linhaunica{
-        justify-content: center;
-        padding-left: 130px;
-    }
-
-    h1{
-        width: 780px;
+    #history{
+        padding-left: 31%;
     }
 
     #myexperience{
-        padding-left: 120px;
+        padding-left: 20%;
+    }
+
+    #humanos #info p{
+        font-size: 0.65em;
+    }
+    
+    #human{
+        padding-left: 37%;
+    }
+
+    #boss{
+        padding-left: 42%;
+    }
+
+    #linha{
+        padding-left: 13%;
+    }
+
+    #linhaunica{
+        padding-left: 15.5%;
+    }
+    
+    #texto video{
+        padding-top: 2%;
+        height: 100%; 
+        width: 50%;
+    }
+}
+
+@media (max-width: 768px){
+    html, body, main, div{
+        box-sizing: border-box;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    header div {
+        font-size: 0.8em;
+    }
+
+    main{
+        padding: 0px 3%;
+    }
+
+    button{
+        width: 12.5%;
+        height: 50px;
+    }
+
+    #menu {
+        margin-left: 0.5%;
+    }
+
+    #logo img{
+        width: 80%;
+        height: 80px;
+    }
+
+    #leonfundo{
+        height: 70%; 
+        width: 100%;
+        padding-top: 2%;
+    }
+
+    #historia, #experiencia nav{
+        display: inline;
+    }
+
+    #texto{
+        padding-top: 4%;
+    }
+    
+    #historia p{
+        text-align: center;
+        padding-left: 1%;
+    }
+
+    #inicio {
+        display: none;
+    }
+
+    #historia, #experiencia nav{
+        font-size: 1em;
+    }
+
+    #history{
+        padding-left: 28%;
+    }
+
+    #myexperience{
+        padding-left: 10%;
+    }
+
+    #character{
+        padding-left: 26%;
+    }
+
+    #guns{
+        padding-left: 23%;
+    }
+
+    #humanos #info p{
+        font-size: 0.63em;
+    }
+
+    #linha{
+        padding-left: 4%;
+    }
+
+    #linhaunica{
+        padding-left: 7%;
+    }
+
+    #texto p{
+        padding-left: 10%;
+    }
+    
+    #texto video{
+        padding-left: 17%;
+        padding-top: 2%;
+        height: 100%; 
+        width: 70%;
     }
 
 }
 
-@media(max-width: 480px){
-    html{
+@media (max-width: 480px){
+    html, body, main, div{
+        box-sizing: border-box;
         width: 100%;
-        font-size: 0.5em;
+        margin: 0;
+        padding: 0;
+    }
+
+    header div {
+        font-size: 0.7em;
+    }
+
+    main{
+        padding: 0px 3%;
+    }
+
+    button{
+        width: 22.5%;
+        height: 50px;
+    }
+
+    #butão{
+        padding-left: 8%;
+    }
+
+    #menu {
+        margin-left: 0.5%;
+    }
+
+    #cabeçalho nav a {
+        padding: 2% 2px;
+        align-items: center;
+        text-decoration: none;
+        color: white;
+    }
+
+    #logo img{
+        width: 80%;
+        height: 60px;
+    }
+
+    #tema{
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    #theme p{
+        padding-left: 3%;
+    }
+
+    #historia, #experienciam nav{
+        font-size: 1.5em;
+    }
+
+    #history, #character, #armas img{
+        width: 70%;
+        height: 50%;
+    }
+
+    #experiencia img{
+        width: 70%;
+        height: 50%;
+    }
+
+    #history{
+        padding-left: 18%;
+    }
+
+    #myexperience{
+        padding-left: 10%;
+    }
+
+    #character{
+        padding-left: 18%;
+    }
+
+    #guns{
+        padding-left: 23%;
+    }
+
+    #linha nav img{
+        width: 50%;
+        height: 50%;
+    }
+
+    #linhaunica img{
+        width: 50%;
+        height: 50%;
+    }
+
+    #humanos #info p{
+        font-size: 0.63em;
+    }
+
+    #linha{
+        padding-left: 4%;
+    }
+
+    #linhaunica{
+        padding-left: 7%;
+    }
+
+    #texto p{
+        padding-left: 10%;
+    }
+    
+    #texto video{
+        padding-left: 17%;
+        padding-top: 2%;
+        height: 100%; 
+        width: 70%;
     }
 }
