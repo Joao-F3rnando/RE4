@@ -34,7 +34,7 @@ header {
 }
 
 main, div #experiencia {
-    padding: 1% 6% 0 3%;
+    padding: 1% 6% 2% 3%;
     box-sizing: border-box;
 }
 
@@ -51,6 +51,8 @@ header #cabeçalho {
     position: relative;
     width: 100%;
 }
+
+
 
 #inicio {
     display: inline-block;
@@ -91,13 +93,12 @@ button:active{
 
 #cabeçalho nav a {
     padding: 2% 20px;
-    align-items: center;
     text-decoration: none;
     color: white;
 }
 
 #menu {
-    margin-left: 30%;
+    margin-left: 25%;
 }
 
 #menu a {
