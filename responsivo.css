@@ -136,6 +136,10 @@
         height: 50px;
     }
 
+    #menu a:hover {
+        display: none;
+    }
+
     #menu {
         margin-left: 0.5%;
     }
@@ -153,6 +157,7 @@
 
     #historia, #experiencia nav{
         display: inline;
+        font-size: 1em;
     }
 
     #texto{
@@ -166,10 +171,6 @@
 
     #inicio {
         display: none;
-    }
-
-    #historia, #experiencia nav{
-        font-size: 1em;
     }
 
     #history{
@@ -214,19 +215,9 @@
 }
 
 @media (max-width: 480px){
-    html, body, main, div{
-        box-sizing: border-box;
-        width: 100%;
-        margin: 0;
-        padding: 0;
-    }
 
     header div {
-        font-size: 0.7em;
-    }
-
-    main{
-        padding: 0px 3%;
+        font-size: 0.56em;
     }
 
     button{
@@ -238,24 +229,17 @@
         padding-left: 8%;
     }
 
-    #menu {
-        margin-left: 0.5%;
-    }
-
     #cabeçalho nav a {
-        padding: 2% 2px;
-        align-items: center;
-        text-decoration: none;
-        color: white;
+        padding: 2px;
     }
 
     #logo img{
-        width: 80%;
-        height: 60px;
+        width: 60%;
+        height: 50px;
     }
 
     #tema{
-        font-size: 1.5em;
+        font-size: 1em;
         text-align: center;
     }
 
@@ -263,8 +247,8 @@
         padding-left: 3%;
     }
 
-    #historia, #experienciam nav{
-        font-size: 1.5em;
+    #historia, #experiencia nav{
+        font-size: 0.8em;
     }
 
     #history, #character, #armas img{
@@ -281,46 +265,73 @@
         padding-left: 18%;
     }
 
-    #myexperience{
-        padding-left: 10%;
+    #character{
+        padding-left: 15%;
     }
 
-    #character{
-        padding-left: 18%;
+    #humanos img{
+        padding-left: 27%;
+
+    }
+
+    #myexperience{
+        padding-left: 20%;
+    }
+
+    #human{
+        padding-left: 20%;
+    }
+
+    #boss{
+        padding-left: 30%;
     }
 
     #guns{
-        padding-left: 23%;
+        padding-left: 18%;
+    }
+
+    #persona{
+        display: inline;
+    }
+
+    #persona p{
+        padding: 0;
+    }
+
+    #armas nav{
+        padding: 0;
+    }
+
+    #linha p{
+        font-size: 0.9em;
+    }
+
+    #linhaunica p{
+        font-size: 0.9em;
+        text-align: center;
+        padding-left: 0;
     }
 
     #linha nav img{
-        width: 50%;
+        width: 100%;
         height: 50%;
     }
 
     #linhaunica img{
-        width: 50%;
+        width: 100%;
         height: 50%;
     }
 
     #humanos #info p{
-        font-size: 0.63em;
+        font-size: 0.5em;
     }
 
-    #linha{
-        padding-left: 4%;
+    #humanos h2{
+        font-size: 1.1em;
     }
 
-    #linhaunica{
-        padding-left: 7%;
-    }
-
-    #texto p{
-        padding-left: 10%;
-    }
-    
     #texto video{
-        padding-left: 17%;
+        padding-left: 17.5%;
         padding-top: 2%;
         height: 100%; 
         width: 70%;
