@@ -229,6 +229,12 @@
         padding-left: 8%;
     }
 
+    #cabeçalho{
+        display: inline-block;
+        
+    }
+
+
     #cabeçalho nav a {
         padding: 2px;
     }
