@@ -227,6 +227,7 @@
 
     #cabeçalho{
         display: inline-block;
+        justify-content:left;
         
     }
 
@@ -236,8 +237,8 @@
     }
 
     #logo img{
-        width: 60%;
-        height: 50px;
+        width: 80%;
+        height: 60px;
     }
 
     #tema{
