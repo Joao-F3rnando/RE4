@@ -136,10 +136,6 @@
         height: 50px;
     }
 
-    #menu a:hover {
-        display: none;
-    }
-
     #menu {
         margin-left: 0.5%;
     }
